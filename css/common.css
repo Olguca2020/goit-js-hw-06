@@ -27,3 +27,6 @@ button {
   justify-content: space-between;
   gap: 20px
 }
+.img{
+  height: 100px;
+}
