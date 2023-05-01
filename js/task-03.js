@@ -19,4 +19,4 @@ const imgColEl = images.map(el => `<li><img src = ${el.url} alt = ${el.alt} ></i
   .join(" ");
   listEl.insertAdjacentHTML(`beforeend`, imgColEl)
 
-console.log(listEl)
+// console.log(listEl)
