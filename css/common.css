@@ -24,9 +24,9 @@ button {
 }
 .gallery{
   display: flex;  
-  justify-content: space-between;
-  gap: 20px
+  justify-content: space-around;
+  
 }
 .img{
-  height: 100px;
+  height: 400px;
 }
