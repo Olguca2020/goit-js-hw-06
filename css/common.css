@@ -30,3 +30,18 @@ button {
 .img{
   height: 400px;
 }
+#boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+@keyframes box-appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
