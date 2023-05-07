@@ -17,8 +17,8 @@ function createBoxes(event) {
   let boxSize = 30;
   for (let i = 0; i < Number(refs.input.value); i += 1){    
     const box = document.createElement("div");
-    box.style.width = boxSize + "px";
-    box.style.height = boxSize + "px";
+    box.style.width = `${boxSize }px`;
+    box.style.height = `${boxSize }px`;
     box.style.backgroundColor = getRandomHexColor();
     refs.divEl.append(box);
     boxSize += 10;
